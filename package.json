@@ -1,0 +1,27 @@
+{
+  "name": "fem-good-parts-func-challenges",
+  "version": "1.0.0",
+  "description": "Function challenges for Front-End Masters: The Good Parts of JavaScript and the Web. Written using ES2015 syntax.",
+  "main": "index.js",
+  "engines": {
+    "node": ">=8"
+  },
+  "author": "Alex Bonine",
+  "license": "MIT",
+  "repository": "https://github.com/alexbonine/fem-good-parts-func-challenges.git",
+  "keywords": ["frontend-masters", "good parts", "javascript", "es2015", "crockford"],
+  "scripts": {
+    "eslint": "eslint --env browser **/*.js || exit 0",
+    "test": "jest --colors",
+    "test:watch": "yarn run test -- --watch"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.2",
+    "eslint": "^4.18.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.9.0",
+    "jest": "^22.3.0",
+    "nodemon": "^1.15.0"
+  },
+  "dependencies": {}
+}
